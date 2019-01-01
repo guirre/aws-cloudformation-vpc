@@ -43,4 +43,6 @@ PS C:\outils\AWS\aws-vpc-cloudformation> aws cloudformation delete-stack --stack
 
 ###  Attach the public subnets to public route tables,  and attach the private subnets to private route tables: 
 
+## Made CloudFormation More Flexible
+
 
