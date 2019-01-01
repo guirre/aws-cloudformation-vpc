@@ -22,3 +22,9 @@ PS C:\outils\AWS\aws-vpc-cloudformation> aws cloudformation create-stack --stack
 ```
 
 ## Mise a jour du Stack
+```
+PS C:\outils\AWS\aws-vpc-cloudformation> aws cloudformation update-stack --stack-name MonReseau --template-body file://MyNetwork.yml
+{
+    "StackId": "arn:aws:cloudformation:eu-west-3:XXXXXXXXXXX:stack/MonReseau/d1e01060-0da8-11e9-965f-0eeeeca3615c"
+}
+```
