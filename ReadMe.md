@@ -33,3 +33,14 @@ PS C:\outils\AWS\aws-vpc-cloudformation>
 PS C:\outils\AWS\aws-vpc-cloudformation> aws cloudformation delete-stack --stack-name MonReseau
 ```
 
+### Création d'un Internet GateWay et Attacher cet Internet gateWay à notre VPC
+
+### Création du sous reseau Subnet  (2 Public Subnet et 2 Private Subnet)
+
+### Ajouter une table de routage public et ajout d'une ligne dans la table de Routre
+
+### Création d'une table de routage privée et NAT (Private route table can access web via NAT)
+
+###  Attach the public subnets to public route tables,  and attach the private subnets to private route tables: 
+
+
