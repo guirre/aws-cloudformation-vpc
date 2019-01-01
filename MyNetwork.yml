@@ -7,10 +7,10 @@ Resources:
     Properties:
       CidrBlock: 10.1.0.0/16
       EnableDnsSupport: true
-      EnableDnsHostnames: false
+      EnableDnsHostnames: true
       Tags:
       - Key: Name
-        Value:  !Join ['', [!Ref "AWS::StackName", "-VPC2" ]]
+        Value:  !Join ['', [!Ref "AWS::StackName", "-VPC1" ]]
           # Our VPC will need internet access:     
   InternetGateway:
     Type: AWS::EC2::InternetGateway
